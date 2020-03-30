@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-int print(){
+int print(int a){
+	for(int i=0;i>=a;i--){
+		printf("%d\n",i);
+	}
 	return 0;
 }
 
